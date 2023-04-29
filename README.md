@@ -4,17 +4,25 @@
 This script allows you to send multiple SMS messages to a given phone number. This can be useful for various purposes, such as pranking a friend or testing the resilience of a messaging system.
 
 
+## Live Demo
+
+- https://flask-sms-bomber.vercel.app/
+
+
+
+
 ## How to Use
 
-Installation of Python is requried
+For Send SMS to specific number
 
-```bash
-  git clone git@github.com:YsrajSingh/flask_sms_bomber.git
-  cd flask_sms_bomber-main
-  pip install -r requirements.txt
-  flask --app App/url run
-```
-    
+- https://flask-sms-bomber.vercel.app/api/<mobile_number>
+
+
+For Send SMS to specific number with number of messages
+
+- https://flask-sms-bomber.vercel.app/api/<mobile_number>/<count_of_sms>
+
+
 ## How to Contribute
 
 I'm excited to review your pull requests and see all the amazing improvements you can make to this Script!
@@ -34,6 +42,4 @@ I'm excited to review your pull requests and see all the amazing improvements yo
 ## Thanks
 
 If you liked this script, don't forget to give it a :star:
-
-
 
