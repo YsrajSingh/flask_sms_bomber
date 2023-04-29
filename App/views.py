@@ -6,8 +6,8 @@ import time
 
 
 def bomber(number, count = 1):
-    new_number = number
-    new_count = count
+    new_number = int(number)
+    new_count = int(count)
     results = []
 
     # Keys to update in Payload are given here
@@ -28,7 +28,7 @@ def bomber(number, count = 1):
     data = json.load(f)
 
     # Number of SMS you want to send 
-    for i in range(count):
+    for i in range(new_count):
         # Iterating through the json list
         for obj in data:
             url = obj["url"]
