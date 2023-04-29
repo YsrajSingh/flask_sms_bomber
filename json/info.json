@@ -1,0 +1,64 @@
+[
+  {
+    "name": "UNACADEMY",
+    "url": "https://unacademy.com/api/v3/user/user_check/?enable-email=true",
+    "headers": {},
+    "body": {
+      "phone": "",
+      "country_code": "IN",
+      "otp_type": 1,
+      "email": "",
+      "send_otp": true,
+      "is_un_teach_user": false
+    }
+  },
+  {
+    "name": "INDIA MART",
+    "url": "https://login.indiamart.com/users/OTPVerification/",
+    "headers": {},
+    "body": {
+      "token": "imobile@15061981",
+      "mobile_num": "",
+      "glusrid": 124831621,
+      "user_mobile_country_code": 91,
+      "flag": "OTPGen",
+      "user_ip": "127.0.0.1",
+      "user_country": "IN",
+      "process": "OTP_Login_Desktop",
+      "user_updatedusing": "Login With OTP Form Desktop",
+      "modid": "MY"
+    }
+  },
+  {
+    "name": "OCTAVE",
+    "url": "https://engine.kartmax.in/api/cart/v1/customer/send-otp",
+    "headers": { "origin": "https://www.octave.co.in" },
+    "body": { "phone": "" }
+  },
+  {
+    "name": "NEERA",
+    "url": "https://63ti5s0o80.execute-api.ap-south-1.amazonaws.com/Prod/nirawebloginapi",
+    "headers": {},
+    "body": { "mobileNumber": "", "otp": "" }
+  },
+  {
+    "name": "PLANT FASHION",
+    "url": "https://www.planetfashion.in/capillarylogin/resendOTP?isAjax=true",
+    "headers": {},
+    "body": {
+      "mobile": "",
+      "register": "register",
+      "module": "register",
+      "firstName": "register"
+    }
+  },
+  {
+    "name": "TRUEMADLY",
+    "url": "https://app.trulymadly.com/api/auth/mobile/v1/send-otp",
+    "headers": {},
+    "body": {
+      "country_code": "91",
+      "mobile": ""
+    }
+  }
+]
