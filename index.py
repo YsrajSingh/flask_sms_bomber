@@ -8,11 +8,11 @@ def index():
     return '! Program Initiated ! , LOADING'
 
 @app.route("/api/<number>")
-def api(number):
+def number(number):
     return bomber(number)
 
 @app.route("/api/<number>/<count>")
-def api(number, count):
+def number_count(number, count):
     return bomber(number, count)
 
 if __name__ == "__main__":
