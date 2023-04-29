@@ -11,6 +11,9 @@ def index():
 def api(number):
     return bomber(number)
 
+@app.route("/api/<number>/<count>")
+def api(number, count):
+    return bomber(number, count)
 
 if __name__ == "__main__":
     app.run()
