@@ -35,7 +35,7 @@ def bomber(number):
             if key in payload:
                 obj["body"][key] = new_number
 
-        time.sleep(1)  # wait for 100 m-seconds
+        time.sleep(0.1)  # wait for 100 m-seconds
         response = requests.post(url, headers=headers, json=payload)
 
         results.append(
